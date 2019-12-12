@@ -6,7 +6,7 @@ package com.lu;
  * @date 2019/12/11 15:53
  */
 public abstract class Vegitables {
-    EdibleOil edibleOil;
+    protected EdibleOil edibleOil;
 
     public void setEdibleOil(EdibleOil edibleOil) {
         this.edibleOil = edibleOil;
